@@ -1,0 +1,160 @@
+<html>
+ 
+<head>
+<style>
+
+body {
+ background: #212121;
+ font-size:22px;
+ line-height: 32px;
+ color: #ffffff;
+ word-wrap:break-word !important;
+    font-family: 'Quicksand', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+h1 {
+ font-size: 60px;
+ text-align: center;
+ color: #FFF;
+ margin-top: 150px;
+    font-family: 'Russo One', sans-serif;
+ }
+h1 span {
+ color: #FF4649;
+}
+#container {
+ margin: 0 auto;
+}
+ 
+nav {
+ margin: 35px 0;
+ background-color: #gggggg;
+}
+nav ul {
+ padding: 0;
+        margin: 0;
+ list-style: none;
+ position: relative;
+ } 
+nav ul li {
+ display:inline-block;
+ background-color: #FF4649;
+ }
+nav a {
+ display:block;
+ padding:0 10px; 
+ color:#FFF;
+ font-size:20px;
+ line-height: 60px;
+ text-decoration:none;
+}
+nav a:hover { 
+ background-color: #333; 
+}
+nav ul ul {
+ display: none;
+ position: absolute; 
+ top: 60px; 
+} 
+nav ul li:hover > ul {
+ display:inherit;
+} 
+nav ul ul li {
+ width:230px;
+ float:none;
+ display:list-item;
+ position: relative;
+}
+nav ul ul ul li {
+ position: relative;
+ top:-60px; 
+ left:230px;
+}
+nav ul ul li {
+ border: 1px solid white;
+} 
+li > a:after { content:  ' ▼'; }
+li > a:only-child:after { content: ''; }
+
+</style>
+
+  <meta charset="UTF-8">
+  <title>Pure CSS DropDown Menu</title> 
+</head>
+<body> 
+<div id="container">
+    <nav><p align="center"> Drop Down Menu </p>
+        <ul align="center">
+		<li ><a href="#"></a> 
+		<ul>
+		<li><a href="#">A</a>
+ 
+               
+ <ul>
+     <li><a href="#">A1</a>
+ 
+ <ul>
+     <li><a href="#">Sub_A1</a></li>
+     <li><a href="#">Sub_A2</a></li>
+      </ul>
+      </li>
+	<li><a href="#">A2</a>
+ 
+ <ul>
+     <li><a href="#">Sub_A3</a></li>
+     <li><a href="#">Sub_A4</a></li>
+                </ul>
+                </li>
+	<li><a href="#">A3</a>
+ 
+ <ul>
+     <li><a href="#">Sub_A5</a></li>
+     <li><a href="#">Sub_A6</a></li>
+                </ul>
+                </li>
+				
+            </ul>
+            </li>
+			
+	<li><a href="#">B</a>
+ 
+               
+ <ul>
+     <li><a href="#">B1</a>
+ 
+ <ul>
+     <li><a href="#">Sub_B1</a></li>
+     <li><a href="#">Sub_B2</a></li>
+                </ul>
+                </li>
+	<li><a href="#">B2</a>
+ 
+ <ul>
+     <li><a href="#">Sub_B3</a></li>
+     <li><a href="#">Sub_B4</a></li>
+                </ul>
+                </li>
+	<li><a href="#">B3</a>
+ 
+ <ul>
+     <li><a href="#">Sub_B5</a></li>
+     <li><a href="#">Sub_B6</a></li>
+                </ul>
+                </li>
+				
+            </ul>
+            </li>
+			</ul>
+          </li>  
+            
+        </ul>
+    </nav>
+ 
+ 
+</div>
+ 
+</body>
+</html>
+
+
